@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+        <meta name="keyword" content="A basic HTML Website">
+        <meta name="author" content="Banibensu Jennifer">
+        <meta name="description" content="A basic HTML Website about my project, schools works and many others">
+        <meta property="og:title" content="A basic html website">
+        <title>
+            A basic HTML
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Poppins;
+            }
+
+            body{
+                background: rgb(0, 0, 0);
+                color: white;
+                width: 100%;
+            }
+            /* h2,h3, p{
+                display: inline-block;
+            } */
+
+            @media screen and (max-width: 768px) {
+        
+             .header{
+                flex-direction: column;
+             }
+             .name{
+                flex-direction: column;
+             }
+             .name img{
+                display: none;
+             }
+             .nav{
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                margin: 5px;
+             }
+             .nav a{
+                align-self: center;
+             }
+
+             #Projects{
+                flex-direction: column;
+             }
+
+             .proj1, .proj2{
+                border: none;
+                border-bottom: 2px solid white;
+             }
+             
+             #Articles h2 {
+                text-align: center;
+             }
+             .card{
+                display: flex;
+                flex-direction: column;
+             }
+             .c1{
+                
+                width: 100%;
+             }
+           }
+            #Home{
+                background-image: url(./maxim-berg-TrI2kGN85ck-unsplash.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .header{
+                height: 5em;
+                padding: 1em;
+                display: flex;
+                justify-content: space-between;
+            }
+            .name{
+                text-decoration: solid;
+                font-weight: bolder;
+                font-size: larger;
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                /* margin-right: 20vw; */
+            }
+           .nav a{
+                color: white;
+                text-decoration: none;
+            }
+            .nav .slash{
+                margin: 2vw;
+            }
+            .job{
+                height: 18em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .job h1{
+                text-decoration: solid;
+                font-weight: bolder;
+                font-size: xx-large;
+                text-align: center;
+            }
+            .job p{
+                font-weight: lighter;
+                font-size: small;
+            }
+            #Projects{
+                display: flex;
+                border: 2px solid white;
+                margin: 10px;
+                padding: 10px;
+            }
+            @media screen and (min-width: 769px) {
+                .proj1, .proj2{
+                padding: 20px;
+                border-right: 2px solid white;
+                }
+                .c1{
+                    width: 30%;
+                }
+            }
+
+            .proj3{
+                padding: 20px;
+            }
+            p{
+                padding: 5px;
+            }
+            .proj1 p{
+                padding: 5px;
+                border-bottom: 1px solid white;
+            }
+           #Articles{
+            height: auto;
+            padding: 10px;
+            display: flex;
+            background: linear-gradient(to bottom, #7e0070, #511b6e, transparent);
+            backdrop-filter: blur(5px);
+            position: relative;
+            z-index: -1;
+           }
+           .card{
+            position: relative;
+           }
+           .c1{
+            border: 2px solid white;
+            border-radius: 20px;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+           }
+           .fade{
+            color: beige;
+           }
+           #Contacts{
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+           form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           }
+           label, input, textarea{
+            display: block;
+            padding: 10px;
+            width: 100%;
+           }
+           button{
+            width: auto;
+            border-radius: 15px;
+            color: white;
+            background-color: #7e0070;
+            margin: 10px;
+            padding: 10px;
+            /* margin-left: 15em; */
+           }
+           footer{
+            text-align: center;
+            padding: 20px;
+           }
+
+           
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="Home"">
+                <div class="header">
+                    
+                    <div class="name">
+                        <img src="./Screenshot 2025-03-12 083222.png" alt="logo" width="40px" height="100%">
+                        Banibensu Jennifer
+                    </div>
+                    <div class="nav">
+                        <a href="#Home">Home</a></li>
+                        <span class="slash">/</span>
+                        <a href="#Projects">Projects</a>
+                        <span class="slash">/</span>
+                        <a href="#Articles">Articles</a>
+                        <span class="slash">/</span>
+                        <a href="#Contacts">Contacts</a>
+                    </div>
+                </div>
+                    
+                    <div class="job">
+                        <h1>Full Stack Developer
+                           
+                        </h1>
+                        <p>html only and no styling with proper layout</p>
+                    </div>
+                    
+            </div>
+            <div id="Projects">
+                <div class="proj1">
+                    <h2>Projects</h2>
+                    <p>HTML Only Portfolio</p>
+                    <p>Calculator</p>
+                    <p>Quiz App</p>
+                    <p>Countdown Timer</p>
+                    <p>Product Upcoming Page</p>
+                </div>
+                <div class="proj2">
+                    <h2 style="padding: 10px;">Work Experience</h2>
+                    <em>roadmap.sh</em>
+                    <p style="margin: 10px;">Solved all the frontend projects.<br>
+                        <a href="">Visit my Profile</a>
+                    </p>
+                    <em>OpenSource Work</em>
+                    <p style="margin: 10px;">Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.<br>
+                        <a href="">Visit my GitHub Profile</a>
+                    </p>
+
+                </div>
+                <div class="proj3">
+                    <h2>Education</h2>
+                    <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                    <h3>Courses I took:</h3>
+                    <p>
+                        <ul>
+                            <li>Object-Oriented Programming</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Web Engineering</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Human-Computer Interaction</li>
+                            <li>Computer Graphics</li>
+                            <li>Database Management Systems</li>
+                            <li>Distributed Database Systems</li>
+                            <li>Discrete Mathematics</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="Articles">
+                <div class="card">
+                    <h2>Reviews from my Teachers</h2>
+                    <div class="c1">
+                        <p>John Doe was a brilliant student; always stood out with his assignments.</p> 
+                       <p class="fade">
+                        Jane Doe <br>
+                        Assistant Professor
+                        </p> 
+                    </div>
+                    <div class="c1">
+                        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                        <p class="fade">
+                            Jane Doe <br>
+                            Assistant Professor
+                        </p> 
+                    </div>
+                    <div class="c1">
+                        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                        <p class="fade">
+                            Jane Doe <br>
+                            Assistant Professor
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div id="Contacts">
+                <form action="#Home" method="post">
+                    <label for="name" aria-label="Full name" >
+                        Name
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name...">
+                    <label for="email" aria-label="Email" >
+                        Email
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email...">
+                    <label for="message" aria-label="Comments" >
+                        Message
+                    </label>
+                    <textarea name="comment" id="message" cols="50" placeholder="Write your comment..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <footer>
+                &copy; all rights reserved 2025
+            </footer>
+           
+        </div>
+    </body>
+</html>
