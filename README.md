@@ -19,6 +19,7 @@ Contact Form: Allows visitors to send messages directly.
 HTML5: Structure of the website.
 
 CSS3: Styling and layout design.
+JavaScript: adding and consenting to cookie and disabling use until it is accepted
 
 Google Fonts: Custom typography.
 
