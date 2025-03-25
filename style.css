@@ -135,6 +135,7 @@ padding: 10px;
 display: flex;
 background: linear-gradient(to bottom, #7e0070, #511b6e, transparent);
 backdrop-filter: blur(5px);
+--webkit-backdrop: blur(5px);
 position: relative;
 z-index: -1;
 }
