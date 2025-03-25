@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
 
         document.cookie = `${name}=${value}${expires}; path=/`
+        console.log(document.cookie)
     }
 
     if(!getCookie("cookieConsent")){
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     document.getElementById("consent").addEventListener("click", ()=>{
         setCookie("cookieConsent", "true", 365)
+        cookieConsent.setAttribute("style", "display: none")
         container.removeChild(grey)
         container.setAttribute("style", "overflow: auto")
     })
